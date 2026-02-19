@@ -465,19 +465,23 @@
     background: #FFCC33;
 }
 
-/* Meta Grouping */
-.meta-group {
+/* Meta Grouping & Process-Role Grouping */
+.meta-group,
+.process-role {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* Spacing between blocks */
 }
 
-.meta-block h3 {
+.meta-block h3,
+.process-block h3,
+.role-block h3 {
     margin-bottom: 8px;
 }
 
-.meta-block p {
+.meta-block p,
+.process-block p,
+.role-block p {
     margin: 0;
 }
 
