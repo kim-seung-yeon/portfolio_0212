@@ -1,21 +1,19 @@
 import React from 'react';
 import './Skill.css';
 
-// skill_ 이미지들 import
-import frame0 from '../assets/img/Frame 1686556170.png';
-import frame1 from '../assets/img/Frame 1686556171.png';
-import frame2 from '../assets/img/Frame 1686556172.png';
-import frame3 from '../assets/img/Frame 1686556173.png';
-import frame4 from '../assets/img/Frame 1686556174.png';
-import frame5 from '../assets/img/Frame 1686556175.png';
-import frame6 from '../assets/img/Frame 1686556176.png';
-// frame7 is excluded due to suspected empty content (143 bytes)
-import frame8 from '../assets/img/Frame 1686556178.png';
-import frame10 from '../assets/img/Frame 1686556180.png';
+import skill_html from '../assets/img/skill_html.png';
+import skill_css from '../assets/img/skill_css.png';
+import skill_js from '../assets/img/skill_js.png';
+import skill_react from '../assets/img/skill_react.png';
+import skill_ps from '../assets/img/skil_ps.png';
+import skill_pr from '../assets/img/skill_pr.png';
+import skill_mid from '../assets/img/skill_mid.png';
+import skill_lii from '../assets/img/skill_lii.png';
+import skill_visual from '../assets/img/skill_visual.png';
 
 const allSkills = [
-    frame0, frame1, frame2, frame3, frame4,
-    frame5, frame6, frame8, frame10
+    skill_html, skill_css, skill_js, skill_react,
+    skill_ps, skill_pr, skill_mid, skill_lii, skill_visual
 ];
 
 // 배열을 랜덤으로 섞는 함수

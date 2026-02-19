@@ -1,10 +1,19 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Contact.css';
-import contact_video from '../assets/video/contact_video.MP4';
+import contact_video from '../assets/video/contact_video.mp4';
 
 const Contact = () => {
     const sectionRef = useRef(null);
+    const videoRef = useRef(null);
     const [progress, setProgress] = useState(0);
+
+    useEffect(() => {
+        if (videoRef.current) {
+            videoRef.current.play().catch(error => {
+                console.log("Video play failed:", error);
+            });
+        }
+    }, []);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -33,13 +42,16 @@ const Contact = () => {
         <section className="contact-page" id="contact" ref={sectionRef}>
             <div className="contact-sticky">
                 <video
+                    ref={videoRef}
                     className="contact-bg-video"
-                    src={contact_video}
                     autoPlay
                     muted
                     loop
                     playsInline
-                />
+                    preload="auto"
+                >
+                    <source src={contact_video} type="video/mp4" />
+                </video>
 
                 {/* Text Layering Container */}
                 <div className="contact-text-layer">

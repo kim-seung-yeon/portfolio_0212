@@ -94,15 +94,15 @@
     font-size: 16px;
     color: #000;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.3s ease;
-    line-height: 1.8;
+    line-height: 1.4;
     height: 0;
     font-weight: 500;
     max-width: 800px;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
     word-break: keep-all;
     white-space: pre-wrap;
 }

@@ -3,9 +3,7 @@ import './Project.css';
 import split from '../assets/img/split.png';
 import force1 from '../assets/img/force1.png';
 import papa from '../assets/img/papa.png';
-import skill_figma from '../assets/img/Frame 1686556170.png';
-import skill_chatgpt from '../assets/img/Frame 1686556171.png';
-import skill_gemini from '../assets/img/Frame 1686556172.png';
+
 
 const Project = () => {
     useEffect(() => {
@@ -78,11 +76,6 @@ const Project = () => {
                                                 <div className="bar-bg"><div className="bar-fill" style={{ width: '100%' }}></div></div>
                                                 <span className="percent">100%</span>
                                             </div>
-                                            <div className="progress-item">
-                                                <span>퍼블리싱</span>
-                                                <div className="bar-bg"><div className="bar-fill" style={{ width: '100%' }}></div></div>
-                                                <span className="percent">100%</span>
-                                            </div>
                                         </div>
                                     </div>
 
@@ -91,12 +84,18 @@ const Project = () => {
                                         <p>개인의 작은 불편함에서 시작해 2030세대로 관찰 대상을 넓히며 공통의 문제를 발견했습니다. 타인이 느끼는 정산 피로도를 조사하고, 그 데이터를 바탕으로 개별 소비를 존중하는 합리적 정산 기능을 설계하였습니다.</p>
                                     </div>
 
-                                    <div className="grid-item tool animate-text">
-                                        <h3>TOOL</h3>
-                                        <div className="tool-icons">
-                                            <div className="tool-icon figma"><img src={skill_figma} alt="" /></div>
-                                            <div className="tool-icon chatgpt"><img src={skill_chatgpt} alt="" /></div>
-                                            <div className="tool-icon gemini"><img src={skill_gemini} alt="" /></div>
+                                    <div className="grid-item meta-group animate-text">
+                                        <div className="meta-block">
+                                            <h3>PARTICIPANTS</h3>
+                                            <p>1명 (personal project)</p>
+                                        </div>
+                                        <div className="meta-block">
+                                            <h3>PERIOD</h3>
+                                            <p>2025.10.13 ~ 2025.11.24</p>
+                                        </div>
+                                        <div className="meta-block">
+                                            <h3>TOOL</h3>
+                                            <p>Figma, Midjourney</p>
                                         </div>
                                     </div>
                                 </div>
@@ -155,12 +154,18 @@ const Project = () => {
                                         <p>제품의 정보 전달력을 높이고 브랜드 스토리를 강조하는 레이아웃을 통해 신뢰도 높은 고객 경험을 개선하고, 일관된 톤앤매너로 브랜드 아이덴티티를 확립하였습니다.</p>
                                     </div>
 
-                                    <div className="grid-item tool animate-text">
-                                        <h3>TOOL</h3>
-                                        <div className="tool-icons">
-                                            <div className="tool-icon figma"><img src={skill_figma} alt="" /></div>
-                                            <div className="tool-icon chatgpt"><img src={skill_chatgpt} alt="" /></div>
-                                            <div className="tool-icon gemini"><img src={skill_gemini} alt="" /></div>
+                                    <div className="grid-item meta-group animate-text">
+                                        <div className="meta-block">
+                                            <h3>PARTICIPANTS</h3>
+                                            <p>총 6명 (Team Project)</p>
+                                        </div>
+                                        <div className="meta-block">
+                                            <h3>PERIOD</h3>
+                                            <p>2025.11.25 ~ 2025.12.29</p>
+                                        </div>
+                                        <div className="meta-block">
+                                            <h3>TOOL</h3>
+                                            <p>Midjourney, Figma, HTML, CSS, Javascript</p>
                                         </div>
                                     </div>
                                 </div>
@@ -203,8 +208,8 @@ const Project = () => {
                                             </div>
                                             <div className="progress-item">
                                                 <span>디자인</span>
-                                                <div className="bar-bg"><div className="bar-fill" style={{ width: '30%' }}></div></div>
-                                                <span className="percent">30%</span>
+                                                <div className="bar-bg"><div className="bar-fill" style={{ width: '40%' }}></div></div>
+                                                <span className="percent">40%</span>
                                             </div>
                                             <div className="progress-item">
                                                 <span>퍼블리싱</span>
@@ -219,12 +224,18 @@ const Project = () => {
                                         <p>팬들의 경험과 행동을 관찰하며, 국내 F1 팬덤의 몰입과 소통에서 공통된 불편을 발견했습니다. 팬 활동 데이터를 분석하여, 누구나 쉽게 참여하고 서로 연결될 수 있는 몰입형 인터페이스와 개인 맞춤형 경험을 설계했습니다.</p>
                                     </div>
 
-                                    <div className="grid-item tool animate-text">
-                                        <h3>TOOL</h3>
-                                        <div className="tool-icons">
-                                            <div className="tool-icon figma"><img src={skill_figma} alt="" /></div>
-                                            <div className="tool-icon chatgpt"><img src={skill_chatgpt} alt="" /></div>
-                                            <div className="tool-icon gemini"><img src={skill_gemini} alt="" /></div>
+                                    <div className="grid-item meta-group animate-text">
+                                        <div className="meta-block">
+                                            <h3>PARTICIPANTS</h3>
+                                            <p>총 7명 (Team Project)</p>
+                                        </div>
+                                        <div className="meta-block">
+                                            <h3>PERIOD</h3>
+                                            <p>2026.01.02 ~ 2026.01.25</p>
+                                        </div>
+                                        <div className="meta-block">
+                                            <h3>TOOL</h3>
+                                            <p>Midjourney, Figma, React</p>
                                         </div>
                                     </div>
                                 </div>

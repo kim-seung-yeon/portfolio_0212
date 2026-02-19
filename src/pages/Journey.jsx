@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './Journey.css';
 import y2017 from '../assets/img/y2017.png';
 import y2024_1 from '../assets/img/y2024_1.png';
+import y2024_1_2 from '../assets/img/y2024_1_2.png';
 import y2024_2_1 from '../assets/img/y2024_2_1.jpg';
 import y2024_2_2 from '../assets/img/y2024_2_2.png';
 import y2025 from '../assets/img/y2025.png';
@@ -231,7 +232,7 @@ const Journey = () => {
                                 <div className="img2024 back">
                                     <div className="image-reveal-wrapper">
                                         <div className="color-mask"></div>
-                                        <img src={y2024_1} alt="" />
+                                        <img src={y2024_1_2} alt="" />
                                     </div>
                                 </div>
                                 <div className="img2024 front">

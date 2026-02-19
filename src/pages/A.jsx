@@ -5,9 +5,15 @@ import './A.css';
 import papa from '../assets/img/papa.png';
 import force1 from '../assets/img/force1.png';
 import split from '../assets/img/split.png';
-import skill_figma from '../assets/img/Frame 1686556170.png';
-import skill_chatgpt from '../assets/img/Frame 1686556171.png';
-import skill_gemini from '../assets/img/Frame 1686556172.png';
+import skill_html from '../assets/img/skill_html.png';
+import skill_css from '../assets/img/skill_css.png';
+import skill_js from '../assets/img/skill_js.png';
+import skill_react from '../assets/img/skill_react.png';
+import skill_ps from '../assets/img/skil_ps.png';
+import skill_pr from '../assets/img/skill_pr.png';
+import skill_mid from '../assets/img/skill_mid.png';
+import skill_lii from '../assets/img/skill_lii.png';
+import skill_visual from '../assets/img/skill_visual.png';
 
 import papa_1 from '../assets/video/papa_1.mp4';
 import papa_2 from '../assets/video/papa_2.mov';
@@ -21,6 +27,8 @@ const A = () => {
     const [selectedCard, setSelectedCard] = useState(null);
     const [videoIndex, setVideoIndex] = useState(0);
     const containerRef = useRef(null);
+    const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
+    const isSmallMobile = typeof window !== 'undefined' && window.innerWidth <= 480;
 
     const papaVideos = [papa_1, papa_2, papa_3, papa_4];
 
@@ -69,11 +77,13 @@ const A = () => {
                 { label: "퍼블리싱", value: "40%" }
             ],
             process: "제품의 정보 전달력을 높이고 브랜드 스토리를 강조하는 레이아웃을 통해 고객 경험을 개선하고, 일관된 톤앤매너로 브랜드 아이덴티티를 확립하였습니다.",
-            tools: [skill_figma, skill_chatgpt, skill_gemini],
+            tools: "Midjourney, Figma, HTML, CSS, Javascript",
+            members: "총 6명 (Team Project)",
+            period: "2025.11.25 ~ 2025.12.29",
             color: "#FFCC33",
             // video: papa_video,
-            planUrl: "https://your-plan-url.com/papa-recipe",
-            figmaUrl: "https://www.figma.com/your-papa-recipe-design"
+            planUrl: "https://www.figma.com/proto/qfe5do0OqwaHThxOBESAxa/%ED%8F%AC%ED%8F%B4-%EB%A7%81%ED%81%AC?node-id=1-3652&t=ZRitH56l7g3hAUWh-1",
+            websiteUrl: "https://solsol3318.github.io/ssol/"
         },
         {
             id: 2,
@@ -84,14 +94,16 @@ const A = () => {
             overview: "Force1은 한국 F1 팬덤을 위한 몰입형 팬 경험 플랫폼으로, 팬들의 참여와 소통을 중심으로 UX를 설계했습니다. 직관적 데이터 시각화와 인터랙티브 요소를 통해 신규 팬과 매니아 모두 몰입할 수 있는 환경을 제공합니다.",
             contribution: [
                 { label: "기획", value: "80%" },
-                { label: "디자인", value: "30%" },
+                { label: "디자인", value: "40%" },
                 { label: "퍼블리싱", value: "40%" }
             ],
             process: "팬들의 경험과 행동을 관찰하며, 국내 F1 팬덤의 몰입과 소통에서 공통된 불편을 발견했습니다. 팬 활동 데이터를 분석하여, 누구나 쉽게 참여하고 서로 연결될 수 있는 몰입형 인터페이스와 개인 맞춤형 경험을 설계했습니다.",
-            tools: [skill_figma, skill_chatgpt, skill_gemini],
+            tools: "Midjourney, Figma, React",
+            members: "총 7명 (Team Project)",
+            period: "2026.01.02 ~ 2026.01.25",
             color: "#FFCC33",
-            planUrl: "https://your-plan-url.com/force1",
-            figmaUrl: "https://www.figma.com/your-force1-design"
+            planUrl: "https://www.figma.com/proto/qfe5do0OqwaHThxOBESAxa/%ED%8F%AC%ED%8F%B4-%EB%A7%81%ED%81%AC?node-id=1-377&t=ZRitH56l7g3hAUWh-1",
+            websiteUrl: "https://force1-five.vercel.app/onboarding"
         },
         {
             id: 3,
@@ -102,14 +114,16 @@ const A = () => {
             overview: "정산 과정은 항목이 늘어날수록 금액 확인과 계산이 반복되어 부담이 커집니다. 특히 여러 품목을 함께 정산할 때, 누가 얼마나 부담해야 하는지 파악하기 어렵습니다. 정산 시 발생하는 불편과 혼란을 줄이고, 정산 과정을 명확하게 만드는 데 초점을 두었습니다.",
             contribution: [
                 { label: "기획", value: "100%" },
-                { label: "디자인", value: "100%" },
-                { label: "퍼블리싱", value: "100%" }
+                { label: "디자인", value: "100%" }
             ],
             process: "개인의 작은 불편함에서 시작해 2030세대로 관찰 대상을 넓히며 공통의 문제를 발견했습니다. 타인이 느끼는 정산 피로도를 조사하고, 그 데이터를 바탕으로 개별 소비를 존중하는 합리적 정산 기능을 설계하였습니다.",
-            tools: [skill_figma, skill_chatgpt, skill_gemini],
+            tools: "Figma, Midjourney",
+            members: "1명 (Personal Project)",
+            period: "2025.10.13 ~ 2025.11.24",
             color: "#FFCC33",
-            planUrl: "https://your-plan-url.com/split",
-            figmaUrl: "https://www.figma.com/your-split-design"
+            planUrl: "https://www.figma.com/proto/qfe5do0OqwaHThxOBESAxa/%ED%8F%AC%ED%8F%B4-%EB%A7%81%ED%81%AC?node-id=37-1618&t=9FYb5DVv9oaH5irG-1",
+            websiteUrl: null,
+            prototypeUrl: "https://www.figma.com/proto/qfe5do0OqwaHThxOBESAxa/%ED%8F%AC%ED%8F%B4-%EB%A7%81%ED%81%AC?node-id=8-810&t=SRGvjpr37gHeYyXd-1"
         }
     ];
 
@@ -128,10 +142,17 @@ const A = () => {
                     {cards.map((card, index) => {
                         // 3 cards: -1, 0, 1 from center (index 1)
                         const offset = index - 1;
-                        const rotate = offset * 15 * scrollProgress;
-                        const x = offset * 350 * scrollProgress;
-                        const y = Math.abs(offset) * 40 * scrollProgress;
-                        const scale = 0.8 + (0.2 * scrollProgress);
+
+                        const baseRotate = isMobile ? 10 : 15;
+                        const baseX = isSmallMobile ? 120 : isMobile ? 200 : 350;
+                        const baseY = isMobile ? 25 : 40;
+
+                        const rotate = offset * baseRotate * scrollProgress;
+                        const x = offset * baseX * scrollProgress;
+                        const y = Math.abs(offset) * baseY * scrollProgress;
+                        const scale = isMobile
+                            ? (0.7 + (0.3 * scrollProgress))
+                            : (0.8 + (0.2 * scrollProgress));
 
                         return (
                             <div
@@ -174,7 +195,7 @@ const A = () => {
                                 <div
                                     className={`modal-left ${selectedCard.id !== 1 ? 'modal-vertical' : ''}`}
                                     style={{
-                                        width: selectedCard.id === 2 ? '430px' : selectedCard.id === 3 ? '390px' : undefined
+                                        width: isMobile ? '100%' : (selectedCard.id === 2 ? '430px' : selectedCard.id === 3 ? '390px' : undefined)
                                     }}
                                 >
                                     {selectedCard.id === 1 ? (
@@ -240,14 +261,18 @@ const A = () => {
                                                 <p>{selectedCard.process}</p>
                                             </div>
 
-                                            <div className="grid-item tool">
-                                                <h3>TOOL</h3>
-                                                <div className="tool-icons">
-                                                    {selectedCard.tools.map((icon, idx) => (
-                                                        <div className="tool-icon" key={idx}>
-                                                            <img src={icon} alt="" />
-                                                        </div>
-                                                    ))}
+                                            <div className="grid-item meta-group">
+                                                <div className="meta-block">
+                                                    <h3>PARTICIPANTS</h3>
+                                                    <p>{selectedCard.members}</p>
+                                                </div>
+                                                <div className="meta-block">
+                                                    <h3>PERIOD</h3>
+                                                    <p>{selectedCard.period}</p>
+                                                </div>
+                                                <div className="meta-block">
+                                                    <h3>TOOL</h3>
+                                                    <p>{selectedCard.tools}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -261,14 +286,26 @@ const A = () => {
                                             >
                                                 view plan
                                             </a>
-                                            <a
-                                                href={selectedCard.figmaUrl}
-                                                className="btn-ani visit-figma"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
-                                                visit figma
-                                            </a>
+                                            {selectedCard.websiteUrl && (
+                                                <a
+                                                    href={selectedCard.websiteUrl}
+                                                    className="btn-ani visit-figma"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    visit website
+                                                </a>
+                                            )}
+                                            {selectedCard.prototypeUrl && (
+                                                <a
+                                                    href={selectedCard.prototypeUrl}
+                                                    className="btn-ani visit-figma"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    view prototype
+                                                </a>
+                                            )}
                                         </div>
                                     </div>
                                 </div>

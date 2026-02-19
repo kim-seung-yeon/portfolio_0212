@@ -35,7 +35,7 @@
 .question-header h2 {
     font-size: clamp(40px, 6.25vw, 120px);
     font-weight: 900;
-    margin-bottom: clamp(12px, 1.25vw, 24px);
+    margin-bottom: clamp(27px, 2.5vw, 51px);
     line-height: 1;
     letter-spacing: -2px;
     font-family: 'Nene Montreal', sans-serif;
@@ -131,7 +131,7 @@
     }
 
     .question-header h2 {
-        margin-bottom: 20px;
+        margin-bottom: 43px;
     }
 }
 
@@ -173,6 +173,7 @@
 
     .question-header h2 {
         font-size: 60px;
+        margin-bottom: 33px;
     }
 
     .question-header p {
@@ -236,6 +237,7 @@
 
     .question-header h2 {
         font-size: 48px;
+        margin-bottom: 28px;
     }
 
     .question-header p {
@@ -291,6 +293,7 @@
 
     .question-header h2 {
         font-size: 40px;
+        margin-bottom: 23px;
     }
 
     .question-header p {

@@ -6,10 +6,10 @@ import po from '../assets/img/po.png';
 import dea from '../assets/img/dea.png';
 
 const clones = [
-    { id: 1, title: 'Musign', label: '뮤자인', image: musign },
-    { id: 2, title: 'Crew A La', label: 'Crew A La', image: crewa },
-    { id: 3, title: 'PHOMEIN', label: '포메인', image: po },
-    { id: 4, title: 'DEABANG', label: '대방', image: dea }
+    { id: 1, title: 'Musign', label: '뮤자인', image: musign, url: '/clones/musign/index.html' },
+    { id: 2, title: 'Crew A La', label: 'Crew A La', image: crewa, url: '/clones/crewal/index.html' },
+    { id: 3, title: 'PHOMEIN', label: '포메인', image: po, url: '/clones/phomein/index.html' },
+    { id: 4, title: 'DEABANG', label: '대방', image: dea, url: '/clones/daebang/index.html' }
 ];
 
 const SplitText = ({ text, className }) => {
@@ -35,9 +35,9 @@ const CloneCard = ({ item, delayIdx }) => {
                 )}
                 <div className="clone-overlay">
                     <h3 className="clone-card-title">{item.title}</h3>
-                    <button className="click-btn">
+                    <a href={item.url} target="_blank" rel="noopener noreferrer" className="click-btn">
                         click
-                    </button>
+                    </a>
                 </div>
             </div>
             <div className="clone-info">
