@@ -171,7 +171,7 @@ function Info() {
                                                 <p className="content">이젠 아카데미 UI/UX 디자인 & 프론트엔드 부트캠프</p>
                                             </li>
                                             <li>
-                                                <p className="year">2024.03 - 2026.04</p>
+                                                <p className="year">2024.04 - 2025.05</p>
                                                 <p className="content">그린컴퓨터아트학원 포토샵 GTQ 1급 그래픽 디자인</p>
                                             </li>
                                             <li>
